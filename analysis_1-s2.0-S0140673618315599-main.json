@@ -1,0 +1,298 @@
+{
+  "variants": [
+    {
+      "description": "BRAFV600E (Val600Glu)",
+      "variant_type": "mutation",
+      "significance": "Predictive of response to BRAF inhibitors",
+      "frequency": "Found in approximately 50% of cutaneous melanomas",
+      "drugs": [
+        "Vemurafenib",
+        "Dabrafenib"
+      ],
+      "evidence_level": "A",
+      "molecular_effect": "Constitutive activation of the MAPK pathway",
+      "clinical_relevance": "Used for treatment selection of BRAF inhibitors",
+      "resistance_mechanisms": [
+        "BRAF amplifications",
+        "MEK1/2 mutations"
+      ],
+      "biomarker_status": "Predictive",
+      "confidence": 0.8,
+      "citations": [
+        17,
+        19,
+        22
+      ]
+    },
+    {
+      "description": "NRAS mutations (NRASQ61L/R, others)",
+      "variant_type": "mutation",
+      "significance": "Associated with poor prognosis; may predict response to MEK inhibitors",
+      "frequency": "Found in approximately 25% of cutaneous melanomas",
+      "drugs": [
+        "Binimetinib"
+      ],
+      "evidence_level": "B",
+      "molecular_effect": "Constitutive activation of the MAPK pathway",
+      "clinical_relevance": "Potential use for treatment selection of MEK inhibitors",
+      "resistance_mechanisms": [],
+      "biomarker_status": "Predictive, prognostic",
+      "confidence": 0.7,
+      "citations": [
+        22,
+        25,
+        107,
+        108
+      ]
+    },
+    {
+      "description": "NF1 mutations",
+      "variant_type": "mutation",
+      "significance": "Uncertain",
+      "frequency": "Found in approximately 15% of cutaneous melanomas",
+      "drugs": [],
+      "evidence_level": "D",
+      "molecular_effect": "Loss of negative regulation of the MAPK pathway",
+      "clinical_relevance": "None established",
+      "resistance_mechanisms": [],
+      "biomarker_status": "None established",
+      "confidence": 0.5,
+      "citations": [
+        22
+      ]
+    },
+    {
+      "description": "KIT mutations (exons 9, 11, 13, 17, 18)",
+      "variant_type": "mutation",
+      "significance": "May predict response to KIT inhibitors",
+      "frequency": "Rare in cutaneous melanoma; more common in acral and mucosal melanomas",
+      "drugs": [
+        "Imatinib",
+        "Nilotinib"
+      ],
+      "evidence_level": "C",
+      "molecular_effect": "Constitutive activation of the KIT receptor tyrosine kinase",
+      "clinical_relevance": "Potential use for treatment selection of KIT inhibitors",
+      "resistance_mechanisms": [],
+      "biomarker_status": "Predictive",
+      "confidence": 0.6,
+      "citations": [
+        109,
+        110,
+        111,
+        112
+      ]
+    },
+    {
+      "description": "TERT promoter mutations",
+      "variant_type": "mutation",
+      "significance": "Associated with poor prognosis",
+      "frequency": "Found in 30-80% of melanomas",
+      "drugs": [],
+      "evidence_level": "B",
+      "molecular_effect": "Increased TERT expression and telomerase activity",
+      "clinical_relevance": "Prognostic marker",
+      "resistance_mechanisms": [],
+      "biomarker_status": "Prognostic",
+      "confidence": 0.7,
+      "citations": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "description": "CDKN2A mutations/deletions",
+      "variant_type": "mutation",
+      "significance": "Associated with melanoma development and progression",
+      "frequency": "Frequently altered in melanoma",
+      "drugs": [],
+      "evidence_level": "B",
+      "molecular_effect": "Loss of cell cycle control",
+      "clinical_relevance": "None established",
+      "resistance_mechanisms": [],
+      "biomarker_status": "None established",
+      "confidence": 0.7,
+      "citations": [
+        17,
+        22
+      ]
+    }
+  ],
+  "clinical_evidence": [
+    {
+      "description": "therapeutic: Improved PFS and OS compared to BRAF inhibitor monotherapy",
+      "evidence_type": "therapeutic",
+      "drugs": [
+        "Dabrafenib",
+        "Trametinib"
+      ],
+      "trial_phase": "Phase 3 trials",
+      "patient_population": "BRAFV600E/K mutation-positive unresectable or metastatic melanoma",
+      "line_of_therapy": "First-line",
+      "significance": "High",
+      "confidence": 0.95,
+      "supporting_data": [
+        "Median PFS 11-14.9 months",
+        "Median OS 22-25 months",
+        "3-5 year OS 40%"
+      ],
+      "biomarker_requirements": [
+        "BRAFV600E/K mutation"
+      ]
+    },
+    {
+      "description": "therapeutic: Improved PFS and OS compared to ipilimumab monotherapy",
+      "evidence_type": "therapeutic",
+      "drugs": [
+        "Nivolumab",
+        "Ipilimumab"
+      ],
+      "trial_phase": "Phase 3 trials",
+      "patient_population": "Unresectable or metastatic melanoma",
+      "line_of_therapy": "First-line",
+      "significance": "High",
+      "confidence": 0.95,
+      "supporting_data": [
+        "Median PFS 11.5 months",
+        "Median OS not reached",
+        "3-year OS 58%"
+      ],
+      "biomarker_requirements": []
+    },
+    {
+      "description": "therapeutic: Improved PFS but not OS compared to dacarbazine",
+      "evidence_type": "therapeutic",
+      "drugs": [
+        "Binimetinib"
+      ],
+      "trial_phase": "Phase 3 trial",
+      "patient_population": "NRAS-mutant advanced melanoma",
+      "line_of_therapy": "Second-line or later",
+      "significance": "Moderate",
+      "confidence": 0.8,
+      "supporting_data": [
+        "ORR 15% vs 7%",
+        "Median PFS 2.8 vs 1.5 months",
+        "Median OS 11 vs 10.1 months"
+      ],
+      "biomarker_requirements": [
+        "NRAS mutation"
+      ]
+    },
+    {
+      "description": "prognostic: RFS is a valid surrogate marker for OS",
+      "evidence_type": "prognostic",
+      "drugs": [],
+      "trial_phase": "Retrospective analyses",
+      "patient_population": "Stage III melanoma after complete resection",
+      "line_of_therapy": "Adjuvant",
+      "significance": "High",
+      "confidence": 0.9,
+      "supporting_data": [
+        "HR for RFS \u22640.77 correlates with OS benefit"
+      ],
+      "biomarker_requirements": []
+    }
+  ],
+  "molecular_data": [
+    {
+      "description": "Pathway: MAPK pathway",
+      "pathway": "MAPK pathway",
+      "alterations": [
+        "BRAF mutations",
+        "NRAS mutations",
+        "NF1 mutations"
+      ],
+      "interactions": {
+        "upstream": [],
+        "downstream": [
+          "ERK activation",
+          "Cyclin D expression",
+          "Transcription factor activation"
+        ]
+      },
+      "therapeutic_implications": [
+        "BRAF inhibitors",
+        "MEK inhibitors",
+        "Resistance via reactivation"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "description": "Pathway: PI3K-AKT-mTOR pathway",
+      "pathway": "PI3K-AKT-mTOR pathway",
+      "alterations": [
+        "PTEN mutations/loss"
+      ],
+      "interactions": {
+        "upstream": [
+          "RTK activation"
+        ],
+        "downstream": [
+          "Increased AKT activation",
+          "Increased cell survival, growth, metabolism"
+        ]
+      },
+      "therapeutic_implications": [
+        "Potential resistance mechanism to MAPK inhibitors"
+      ],
+      "confidence": 0.4
+    },
+    {
+      "description": "Pathway: Cell cycle regulation",
+      "pathway": "Cell cycle regulation",
+      "alterations": [
+        "CDKN2A mutations/loss"
+      ],
+      "interactions": {
+        "upstream": [
+          "Cyclin D-CDK4/6 activation"
+        ],
+        "downstream": [
+          "Loss of G1/S checkpoint control",
+          "Increased cell proliferation"
+        ]
+      },
+      "therapeutic_implications": [],
+      "confidence": 0.7
+    },
+    {
+      "description": "Pathway: Telomerase activation",
+      "pathway": "Telomerase activation",
+      "alterations": [
+        "TERT promoter mutations"
+      ],
+      "interactions": {
+        "upstream": [],
+        "downstream": [
+          "Increased TERT expression",
+          "Telomere maintenance"
+        ]
+      },
+      "therapeutic_implications": [],
+      "confidence": 0.6
+    }
+  ],
+  "metadata": {
+    "timestamp": "2024-12-23 06:22:30.811174",
+    "source": "claude-3-opus-20240229",
+    "text_length": 80920,
+    "processing_time": 84.104879,
+    "validation_status": "processed",
+    "confidence_scores": {
+      "variants": 0.6666666666666666,
+      "clinical": 0.9,
+      "molecular": 0.6625,
+      "overall": 0.7430555555555555
+    }
+  },
+  "stats": {
+    "processing_time": 84.53113,
+    "text_length": 80920,
+    "num_variants": 6,
+    "num_clinical_evidence": 4,
+    "num_molecular_data": 4,
+    "overall_confidence": 0.7430555555555555
+  }
+}

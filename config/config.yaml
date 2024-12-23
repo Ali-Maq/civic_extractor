@@ -1,0 +1,20 @@
+extraction:
+  confidence_threshold: 0.7
+  max_tokens: 4000
+  retry_attempts: 3
+
+logging:
+  level: INFO
+  file: "extraction.log"
+
+models:
+  llm_model: "claude-3-opus-20240229"
+  temperature: 0.7
+
+validation:
+  min_confidence_score: 0.6
+  required_fields:
+    - variants
+    - clinical_evidence
+    - drug_interactions
+    - assertions
